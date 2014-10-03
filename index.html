@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>NSF Polar DataVis Hackathon</title>
+	<link media="all" rel="stylesheet" href="static/css/promo-min.css">
+	  <link media="all" rel="stylesheet" href="static/css/leaflet.css">
+</head>
+<body>
+  <img src="static/img/polar.jpg" style="position: fixed; z-index: -1; width: 100%; height: 100%;">
+<div id="wrapper">
+		<section class="promo win-height">
+			<div class="frame">
+				<div class="container">
+					<h1>NSF Polar Cyberinfrastructure</h1>
+					<h1>DataVis Hackathon</h1>
+					<p>November 3 - 4, 2014</p>
+				</div>
+			</div>
+			<a href="#team" class="btn-down scroll-link"><img src="static/img/downarrow.png"></a>
+		</section>
+
+		<section class="team-section" id="team">
+			<header class="container">
+			  	<div class="about-block">
+					<div class="box">
+						<img src="static/img/nsf.png" alt="nsf" style="padding-top: 20px;">
+					</div>
+					<div class="box">
+						<img src="static/img/usc.png" alt="usc" style="width: 200%; padding-top: 30px;">
+					</div>
+					<div class="box">
+						<img src="static/img/JPL.png" alt="JPL" style="width: 200%; padding-top: 50px;">
+					</div>
+					<div class="box">
+						<img src="static/img/nasa.png" alt="nasa" style="padding-top: 20px;">
+					</div>
+				</div>
+
+			</header>
+		</section>
+
+		<section class="about-section win-height" id="about">
+			<div class="container">
+				<h1>Abstract</h1>
+			<p>This workshop will focus on the bridging of the cyberinfrastructure/data visualization and polar communities and it is scheduled to be held in New York City at the Parsons New School for Design in November 2014. Improving the use and the value of existing data sets over the polar regions is crucial to promote science and support new discoveries. Ultimately, collaborations between data visualization experts and polar scientists will foster the understanding of the variability of the polar regions at different timescales, with implicit benefit for the society.
+The participants will be motivated by several public Polar datasets that will be acquired and made available before the starting date of the workshop. One of the expected outcomes is to produce high impact and novel prototypes and data visualizations that will be made available under open source licenses. Releasing the prototypes will allow the NSF to make longer-term investments in technologies and visualizations that can be adopted by the community. The workshop will also increase cross agency collaboration between NSF, NASA, NOAA and other Arctic/Polar related agencies.
+The organizing committee is composed by both cyberinfrastructure and polar experts, including participation from academia, industry, the federally funded research and development centers, and from the broader open source community. The workshop will: (1) recommend several sets of open source software for data and metadata processing; scientific workflow management; data curation; and data dissemination; (2) identify some relevant Polar data visualization techniques and assess the needs and challenges of visualizing Polar datasets; (3) package, deliver, and make available the outcomes of the workshop via a public website; and (4) provide input to the NSF Polar CyberInfrastructure program officer through a final report.
+			</p>
+		    </div>
+		</section>
+
+
+		<section class="location-section" id="location">
+			<header class="container">
+				<h1>Location</h1>
+				<p>Parsons - The New School</p>
+				<p>66 W 12th St, New York, NY 10011</p>
+			</header>
+			<div id="map" style="width: 100%; height: 500px"></div>
+		</section>
+
+		<section class="sessions-section" id="sessions">
+			<header class="container">
+				<h1>Sessions</h1>
+			</header>
+			<div id="github-sessions"></div>
+		</section>
+		<!-- twitter section -->
+		<section class="twitter-section" id="contact">
+			<div class="container">
+			    <h1>Tweets</h1>
+			    </div>
+			</div>
+		</section>
+		<!-- contact section -->
+		<section class="contact-section" id="contact">
+			<div class="container">
+			    <h1>Contact Us</h1>
+			    <div class="contact"></div>
+				    <div class="email">
+					    <a href="mailto:nsfdatavis@gmail.com;">nsfdatavis@gmail.com</a>
+				    </div>
+			    </div>
+			</div>
+		</section>
+	</div>
+	
+	<script type="text/javascript" src="static/js/jquery.js"></script>
+	<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+	<script type="text/javascript" src="static/js/jquery.main.eng.min.js"></script>
+	<script src="static/js/issues.js"></script>
+	<script src="static/js/leaflet.js"></script>
+	<script src="static/js/map.js"></script>
+
+<script type="text/javascript"> 
+    jQuery(document).ready(function(){
+        getSessions();
+    });
+</script>
+
+</body>
+</html>
