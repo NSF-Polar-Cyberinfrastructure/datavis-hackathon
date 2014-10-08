@@ -8,7 +8,7 @@
   z-index: 5;
 }
 
-#menu-toggle.open { left: 400px; }
+#menu-toggle.open { left: 200px; }
 
 #menu-icon {
   width: 45px;
@@ -115,7 +115,7 @@ ul#menu,
 #menu {
   background: #222222;
   opacity: .9;
-  width: 400px;
+  width: 200px;
   position: fixed;
   top: 0;
   bottom: 0;
