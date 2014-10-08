@@ -7,12 +7,35 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>NSF Polar DataVis Hackathon</title>
 	<link media="all" rel="stylesheet" href="static/css/promo-min.css">
-	  <link media="all" rel="stylesheet" href="static/css/leaflet.css">
+        <link media="all" rel="stylesheet" href="static/css/leaflet.css">
+        <link media="all" rel="stylesheet" href="static/css/side_menu.css">
 </head>
 <body>
   <img src="static/img/polar.jpg" style="position: fixed; z-index: -1; width: 100%; height: 100%;">
 <div id="wrapper">
-		<section class="promo win-height">
+
+		<div id="menu-toggle">
+		<div id="menu-icon">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</div>
+	      </div>
+	      <div id="menu-overlay"></div>
+	      <ul id="menu">
+		<li><a href="#top">Top</a></li>
+		<li><a href="#abstract">Abstract</a></li>
+		<li><a href="#location">Location</a></li>
+		<li><a href="#sessions">Sessions</a></li>
+		<li><a href="#tweets">Tweets</a></li>
+		<li><a href="#committee">Committee</a></li>
+		<li><a href="#contact">Contact</a></li>
+	      </ul>
+
+		<section class="promo win-height" id="top">
 			<div class="frame">
 				<div class="container">
 					<h1>NSF Polar Cyberinfrastructure</h1>
@@ -22,11 +45,11 @@
 				</div>
 			</div>
 			<br/><br/>
-			<a href="#about" class="btn-down scroll-link"><img src="static/img/downarrow.png"></a>
+			<a href="#abstract" class="btn-down scroll-link"><img src="static/img/downarrow.png"></a>
 		</section>
 
 
-		<section class="about-section" id="about">
+		<section class="about-section" id="abstract">
 			<div class="container">
 				<h1>Abstract</h1>
 			<p>This workshop will focus on the bridging of the cyberinfrastructure/data visualization and polar communities and it is scheduled to be held in New York City at the Parsons New School for Design in November 2014. Improving the use and the value of existing data sets over the polar regions is crucial to promote science and support new discoveries. Ultimately, collaborations between data visualization experts and polar scientists will foster the understanding of the variability of the polar regions at different timescales, with implicit benefit for the society.
@@ -63,7 +86,7 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
 			    </div>
 			</div>
 		</section>
-		<section class="committee-section" id="tweets">
+		<section class="committee-section" id="committee">
 			<div class="container">
 			    <h1>Organizing Committee</h1>
 			    <div style="text-align: left">
@@ -147,6 +170,7 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
 	<script src="static/js/issues.js"></script>
 	<script src="static/js/leaflet.js"></script>
 	<script src="static/js/map.js"></script>
+	<script src="static/js/side_menu.js"></script>
 
 <script type="text/javascript"> 
     jQuery(document).ready(function(){
