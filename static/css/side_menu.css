@@ -121,6 +121,7 @@ ul#menu,
   bottom: 0;
   left: -400px;
   z-index: 4;
+  overflow: auto;
 }
 
 #menu li { position: relative; }
