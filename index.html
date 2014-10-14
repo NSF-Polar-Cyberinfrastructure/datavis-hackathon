@@ -7,37 +7,50 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>NSF Polar DataVis Hackathon</title>
 	<link media="all" rel="stylesheet" href="static/css/promo-min.css">
-	  <link media="all" rel="stylesheet" href="static/css/leaflet.css">
+        <link media="all" rel="stylesheet" href="static/css/leaflet.css">
+        <link media="all" rel="stylesheet" href="static/css/side_menu.css">
 </head>
 <body>
   <img src="static/img/polar.jpg" style="position: fixed; z-index: -1; width: 100%; height: 100%;">
 <div id="wrapper">
-		<section class="promo win-height">
+
+		<div id="menu-toggle">
+		<div id="menu-icon">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</div>
+	      </div>
+	      <div id="menu-overlay"></div>
+	      <ul id="menu">
+		<li><a href="#top">Top</a></li>
+		<li><a href="#abstract">Abstract</a></li>
+		<li><a href="#location">Location</a></li>
+		<li><a href="#sessions">Sessions</a></li>
+		<li><a href="#tweets">Tweets</a></li>
+		<li><a href="#irc">IRC Channel</a></li>
+		<li><a href="#committee">Committee</a></li>
+		<li><a href="#contact">Contact</a></li>
+	      </ul>
+
+		<section class="promo win-height" id="top">
 			<div class="frame">
 				<div class="container">
 					<h1>NSF Polar Cyberinfrastructure</h1>
 					<h1>DataVis Hackathon</h1>
-					<p>November 3 - 4, 2014</p>
+					<h2>November 3 - 4, 2014</h2>
+					<h2>#nsfpolardatavis</h2>
 				</div>
 			</div>
-			<a href="#team" class="btn-down scroll-link"><img src="static/img/downarrow.png"></a>
+			<br/><br/>
+			<a href="#abstract" class="btn-down scroll-link"><img src="static/img/downarrow.png"></a>
 		</section>
 
-		<section class="team-section" id="team">
-			<header class="container" style="text-align: center">
-			  	<div class="about-block">
-					<div class="box">
-						<img src="static/img/nsf.png" alt="nsf" style="padding-top: 20px;">
-					</div>
-					<div class="box">
-						<img src="static/img/usc.png" alt="usc" style="width: 200%; padding-top: 30px;">
-					</div>
-				</div>
 
-			</header>
-		</section>
-
-		<section class="about-section win-height" id="about">
+		<section class="about-section" id="abstract">
 			<div class="container">
 				<h1>Abstract</h1>
 			<p>This workshop will focus on the bridging of the cyberinfrastructure/data visualization and polar communities and it is scheduled to be held in New York City at the Parsons New School for Design in November 2014. Improving the use and the value of existing data sets over the polar regions is crucial to promote science and support new discoveries. Ultimately, collaborations between data visualization experts and polar scientists will foster the understanding of the variability of the polar regions at different timescales, with implicit benefit for the society.
@@ -60,13 +73,67 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
 		<section class="sessions-section" id="sessions">
 			<header class="container">
 				<h1>Sessions</h1>
+				<a href="https://github.com/NSF-Polar-Cyberinfrastructure/datavis-hackathon/wiki" target="_blank"><h2>Create a New Session</h2></a>
 			</header>
 			<div id="github-sessions"></div>
 		</section>
 		<!-- twitter section -->
-		<section class="twitter-section" id="contact">
+		<section class="twitter-section" id="tweets">
 			<div class="container">
 			    <h1>Tweets</h1>
+			    <div style="text-align: center">
+			    <a class="twitter-timeline" href="https://twitter.com/hashtag/nsfpolardatavis" data-widget-id="519281995805757440">#nsfpolardatavis Tweets</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			    </div>
+			    </div>
+			</div>
+		</section>
+                <!-- irc section -->
+                <section class="irc-section" id="irc">
+                        <div class="container">
+                            <h1>IRC</h1>
+                            <div style="text-align: center">
+			      IRC generously provided by Freenode.net.<br/>
+			      Join <a href="irc://irc.freenode.net/#nsfpolardatavis">#nsfpolardatavis</a> on irc.freenode.net.
+			    </div>
+                        </div>
+                </section>
+		<section class="committee-section" id="committee">
+			<div class="container">
+			    <h1>Organizing Committee</h1>
+			    <div style="text-align: left">
+				<p>
+				<a href="mailto:mattmann@usc.edu">Dr. Chris Mattmann: University of Southern California and Jet Propulsion Laboratory, California Institute of Technology</a>
+				<br>
+				<a href="mailto:anniebryant.burgess@gmail.com">Dr. Annie Bryant Burgess: University of Southern California</a>
+				<br>
+				<a href="mailto:carbotte@ldeo.columbia.edu">Dr. Suzanne Carbotte: Columbia University</a>
+				<br>
+				<a href="mailto:bruce@tnms.org">Dr. Bruce Caron: New Media Research Institute</a>
+				<br>
+				<a href="mailto:patrick@plan.aau.dk">Dr. Patrick Driscoll: Aalborg University</a>
+				<br>
+				<a href="mailto:christopher.goranson@gsa.gov">Mr. Christopher Goranson: Parsons Institute for Information Mapping</a>
+				<br>
+				<a href="mailto:hillar@newschool.edu">Mr. Aaron Hill: Parsons, The New School for Design</a>
+				<br>
+				<a href="mailto:dkatz@nsf.gov">Dr. Daniel Katz: National Science Foundation</a>
+				<br>
+				<a href="mailto:martinl@plan.aau.dk">Dr. Martin Lehmanm: Aalborg University</a>
+				<br>
+				<a href="mailto:maceachren@psu.edu">Dr. Alan Maceachren: Penn State University</a>
+				<br>
+				<a href="mailto:pundsack@umn.edu">Dr. Jonathan Pundsack: University of Minnesota Polar Geospatial Center</a>
+				<br>
+				<a href="mailto:mtedesco@nsf.gov">Dr. Marco Tedesco: National Science Foundation</a>
+				<br>
+				<a href="mailto:TowersJ@newschool.edu">Mr. Joel Towers: Parsons, The New School for Design</a>
+				<br>
+				<a href="mailto:saskia.vanmanen@open.ac.uk">Dr. Saskia Van Manen: Open University</a>
+				<br>
+				<a href="mailto:alex@seas.harvard.edu">Dr. Alexander Lex: Harvard</a>
+				</p>
+			    </div>
 			    </div>
 			</div>
 		</section>
@@ -81,6 +148,32 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
 			    </div>
 			</div>
 		</section>
+		
+		<section class="team-section" id="team">
+			<header class="container" style="text-align: center">
+			  	<div class="about-block">
+					<div class="box">
+						<h2>Sponsored by</h2>
+						<a href="http://www.nsf.gov/" target="_blank"><img src="static/img/nsf.png" alt="nsf" style="padding-top: 20px;"></a>
+						<h2>Award Abstract</h2>
+						<p><a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1445624&HistoricalAwards=false" target="_blank">[PLR-144562]</a></p>
+						<p><a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1348450&HistoricalAwards=false" target="_blank">[PLR-1348450]</a></p>
+					</div>
+					<div class="box" style="border-left: dotted; border-right: dotted; border-color: #D0D0D0;">
+						<h2>Hosts</h2>
+						<a href="http://www.usc.edu/" target="_blank"><img src="static/img/usc.png" alt="usc" style="width: 200%; padding-top: 30px;"></a>
+						<a href="http://www.newschool.edu/parsons/" target="_blank"><img src="static/img/parson.jpeg" alt="usc" style="width: 200%; padding-top: 30px;"></a>
+					</div>
+					<div class="box">
+						<h2>Contributors</h2>
+						<a href="http://www.jpl.nasa.gov/" target="_blank"><img src="static/img/JPL.png" alt="JPL" style="width: 200%; padding-top: 50px;"></a>
+						<a href="http://www.nasa.gov/" target="_blank"><img src="static/img/nasa.png" alt="nasa" style="padding-top: 20px;"></a>
+					</div>
+				</div>
+
+			</header>
+		</section>
+		
 	</div>
 	
 	<script type="text/javascript" src="static/js/jquery.js"></script>
@@ -89,6 +182,7 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
 	<script src="static/js/issues.js"></script>
 	<script src="static/js/leaflet.js"></script>
 	<script src="static/js/map.js"></script>
+	<script src="static/js/side_menu.js"></script>
 
 <script type="text/javascript"> 
     jQuery(document).ready(function(){

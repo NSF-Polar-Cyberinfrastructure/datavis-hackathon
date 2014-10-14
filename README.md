@@ -11,7 +11,13 @@ The organization of this tree is as follows:
 * logistics - logistical information about the venue, participatoin stats, etc.
 * site - A sub-module link to the website at http://nsf-polar-cyberinfrastructure.github.io/datavis-hackathon/
 * programcommittee - Info about the Program Committee for the Hackathon.
+* static - Static portions of the website (CSS, JS, resources)
+* index.html - The actual web site.
 
 Tweeting and Social Media
 ===
 If you are considering tweeting about the site, please use the hashtag [#nsfpolardatavis](https://twitter.com/search?f=realtime&q=%23nsfpolardatavis)
+
+Website
+===
+[http://nsf-polar-cyberinfrastructure.github.io/datavis-hackathon/](http://nsf-polar-cyberinfrastructure.github.io/datavis-hackathon/)
