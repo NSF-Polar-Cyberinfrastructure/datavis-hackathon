@@ -3800,6 +3800,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-collapse {
+    text-align: center;
     width: auto;
     border-top: 0;
     -webkit-box-shadow: none;
@@ -3960,7 +3961,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-nav {
-    float: left;
+    /*float: left;*/
+    display: inline-block;
     margin: 0;
   }
   .navbar-nav > li {
