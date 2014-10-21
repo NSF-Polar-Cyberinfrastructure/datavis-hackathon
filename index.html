@@ -9,23 +9,27 @@
 	<link media="all" rel="stylesheet" href="static/css/promo-min.css">
         <link media="all" rel="stylesheet" href="static/css/leaflet.css">
         <link media="all" rel="stylesheet" href="static/css/side_menu.css">
+        <link media="all" rel="stylesheet" href="static/css/bootstrap.css">
 </head>
 <body>
-  <img src="static/img/polar.jpg" style="position: fixed; z-index: -1; width: 100%; height: 100%;">
-<div id="wrapper">
+		
 
-		<div id="menu-toggle">
-		<div id="menu-icon">
-		  <span></span>
-		  <span></span>
-		  <span></span>
-		  <span></span>
-		  <span></span>
-		  <span></span>
-		</div>
-	      </div>
-	      <div id="menu-overlay"></div>
-	      <ul id="menu">
+
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
 		<li><a href="#top">Top</a></li>
 		<li><a href="#abstract">Abstract</a></li>
 		<li><a href="#location">Location</a></li>
@@ -35,7 +39,39 @@
 		<li><a href="#irc">IRC Channel</a></li>
 		<li><a href="#committee">Committee</a></li>
 		<li><a href="#contact">Contact</a></li>
-	      </ul>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+
+
+  <img src="static/img/polar.jpg" style="position: fixed; z-index: -1; width: 100%; height: 100%;">
+<div id="wrapper">
+
+	<!--	<div id="menu-toggle">-->
+	<!--	<div id="menu-icon">-->
+	<!--	  <span></span>-->
+	<!--	  <span></span>-->
+	<!--	  <span></span>-->
+	<!--	  <span></span>-->
+	<!--	  <span></span>-->
+	<!--	  <span></span>-->
+	<!--	</div>-->
+	<!--      </div>-->
+	<!--      <div id="menu-overlay"></div>-->
+	<!--      <ul id="menu">-->
+	<!--	<li><a href="#top">Top</a></li>-->
+	<!--	<li><a href="#abstract">Abstract</a></li>-->
+	<!--	<li><a href="#location">Location</a></li>-->
+	<!--	<li><a href="#sessions">Sessions</a></li>-->
+	<!--	<li><a href="#agenda">Agenda</a></li>-->
+	<!--	<li><a href="#tweets">Tweets</a></li>-->
+	<!--	<li><a href="#irc">IRC Channel</a></li>-->
+	<!--	<li><a href="#committee">Committee</a></li>-->
+	<!--	<li><a href="#contact">Contact</a></li>-->
+	<!--      </ul>-->
 
 		<section class="promo win-height" id="top">
 			<div class="frame">
@@ -187,7 +223,6 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
 		</section>
 		
 	</div>
-	
 	<script type="text/javascript" src="static/js/jquery.js"></script>
 	<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
 	<script type="text/javascript" src="static/js/jquery.main.eng.min.js"></script>
@@ -195,6 +230,7 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
 	<script src="static/js/leaflet.js"></script>
 	<script src="static/js/map.js"></script>
 	<script src="static/js/side_menu.js"></script>
+	<script src="static/js/bootstrap.js"></script>
 
 <script type="text/javascript"> 
     jQuery(document).ready(function(){
