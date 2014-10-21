@@ -1391,6 +1391,7 @@ pre code {
   overflow-y: scroll;
 }
 .container {
+  padding-top: 4%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -1398,16 +1399,19 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
+    padding-top: 4%;
     width: 750px;
   }
 }
 @media (min-width: 992px) {
   .container {
+    padding-top: 4%;
     width: 970px;
   }
 }
 @media (min-width: 1200px) {
   .container {
+    padding-top: 4%;
     width: 1170px;
   }
 }
