@@ -7,6 +7,8 @@ funded project [PLR-1348450](http://www.nsf.gov/awardsearch/showAward?AWD_ID=134
 
 The organization of this tree is as follows:
 
+* static - Static portions of the website (CSS, JS, resources)
+* index.html - The actual web site.
 * cfp - Call for Papers
 * logistics - logistical information about the venue, participatoin stats, etc.
 * site - A sub-module link to the website at http://nsf-polar-cyberinfrastructure.github.io/datavis-hackathon/
