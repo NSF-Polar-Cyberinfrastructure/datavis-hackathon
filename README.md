@@ -14,6 +14,9 @@ Tweeting and Social Media
 ===
 If you are considering tweeting about the site, please use the hashtag [#nsfpolardatavis](https://twitter.com/search?f=realtime&q=%23nsfpolardatavis)
 
+If you use [Google Plus](http://plus.google.com), please consider leveraging our
+Google Group/Event Group [here](https://plus.google.com/events/ccvo3qic56jku72r40haqjnlf74).
+
 Website
 ===
 [http://nsf-polar-cyberinfrastructure.github.io/datavis-hackathon/](http://nsf-polar-cyberinfrastructure.github.io/datavis-hackathon/)
