@@ -9,33 +9,46 @@
 	<link media="all" rel="stylesheet" href="static/css/promo-min.css">
         <link media="all" rel="stylesheet" href="static/css/leaflet.css">
         <link media="all" rel="stylesheet" href="static/css/side_menu.css">
+        <link media="all" rel="stylesheet" href="static/css/bootstrap.css">
 </head>
 <body>
-  <img src="static/img/polar.jpg" style="position: fixed; z-index: -1; width: 100%; height: 100%;">
-<div id="wrapper">
+		
 
-		<div id="menu-toggle">
-		<div id="menu-icon">
-		  <span></span>
-		  <span></span>
-		  <span></span>
-		  <span></span>
-		  <span></span>
-		  <span></span>
-		</div>
-	      </div>
-	      <div id="menu-overlay"></div>
-	      <ul id="menu">
+
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
 		<li><a href="#top">Top</a></li>
 		<li><a href="#abstract">Abstract</a></li>
 		<li><a href="#location">Location</a></li>
 		<li><a href="#sessions">Sessions</a></li>
-		<li><a href="#tweets">Tweets</a></li>
+		<li><a href="#agenda">Agenda</a></li>
+		<li><a href="#tweets">Social Media</a></li>
 		<li><a href="#irc">IRC Channel</a></li>
 		<li><a href="#committee">Committee</a></li>
 		<li><a href="#contact">Contact</a></li>
-	      </ul>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
 
+
+
+
+  <img src="static/img/polar.jpg" style="position: fixed; z-index: -1; width: 100%; height: 100%;">
+<div id="wrapper">
 		<section class="promo win-height" id="top">
 			<div class="frame">
 				<div class="container">
@@ -77,14 +90,27 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
 			</header>
 			<div id="github-sessions"></div>
 		</section>
+                <section class="agenda-section" id="agenda">	
+                	<div class="container">
+				<h1>Agenda</h1>
+				<iframe style="width: 100%; height: 900px" src="https://docs.google.com/document/d/175JD0b5zZVE1u86trEtm_l_0xy9MF7Nax3AxHvicgkQ/pub?embedded=true"></iframe>
+                	</div>
+                </section>
 		<!-- twitter section -->
 		<section class="twitter-section" id="tweets">
 			<div class="container">
-			    <h1>Tweets</h1>
+			    <h1>Social Media</h1>
 			    <div style="text-align: center">
 			    <a class="twitter-timeline" href="https://twitter.com/hashtag/nsfpolardatavis" data-widget-id="519281995805757440">#nsfpolardatavis Tweets</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			    </div>
+			    <br>
+			    <div style="text-align: center">
+				<h3>Please share your photos and comments on our G+ Event</h3>
+				<a title="nsfpolardatavis G+ Event" target="_blank" href="https://plus.google.com/events/ccvo3qic56jku72r40haqjnlf74">
+                                <img src="static/img/MetroUI-Google-plus-icon.png" alt="nsfpolardatavis G+ Event" height="100" width="100"/>
+                                </a>
+		            </div>
 			    </div>
 			</div>
 		</section>
@@ -92,9 +118,9 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
                 <section class="irc-section" id="irc">
                         <div class="container">
                             <h1>IRC</h1>
-                            <div style="text-align: center">
-			      IRC generously provided by Freenode.net.<br/>
-			      Join <a href="irc://irc.freenode.net/#nsfpolardatavis">#nsfpolardatavis</a> on irc.freenode.net.
+                            <div style="text-align: center">	
+			      <h2>IRC generously provided by Freenode.net.<br/>
+			      Join <a href="irc://irc.freenode.net/#nsfpolardatavis">#nsfpolardatavis</a> on irc.freenode.net.</h2>
 			    </div>
                         </div>
                 </section>
@@ -111,15 +137,15 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
 				<br>
 				<a href="mailto:bruce@tnms.org">Dr. Bruce Caron: New Media Research Institute</a>
 				<br>
-				<a href="mailto:patrick@plan.aau.dk">Dr. Patrick Driscoll: Aalborg University</a>
+				<a href="mailto:patrick@plan.aau.dk">Dr. Patrick Driscoll: Aalborg University, Denmark</a>
 				<br>
-				<a href="mailto:christopher.goranson@gsa.gov">Mr. Christopher Goranson: Parsons Institute for Information Mapping</a>
+				<a href="mailto:christopher.goranson@gsa.gov">Mr. Christopher Goranson: Presidential Innovation Fellow (GSA)</a>
 				<br>
 				<a href="mailto:hillar@newschool.edu">Mr. Aaron Hill: Parsons, The New School for Design</a>
 				<br>
 				<a href="mailto:dkatz@nsf.gov">Dr. Daniel Katz: National Science Foundation</a>
 				<br>
-				<a href="mailto:martinl@plan.aau.dk">Dr. Martin Lehmanm: Aalborg University</a>
+				<a href="mailto:martinl@plan.aau.dk">Dr. Martin Lehmann: Aalborg University, Denmark</a>
 				<br>
 				<a href="mailto:maceachren@psu.edu">Dr. Alan Maceachren: Penn State University</a>
 				<br>
@@ -131,7 +157,7 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
 				<br>
 				<a href="mailto:saskia.vanmanen@open.ac.uk">Dr. Saskia Van Manen: Open University</a>
 				<br>
-				<a href="mailto:alex@seas.harvard.edu">Dr. Alexander Lex: Harvard</a>
+				<a href="mailto:apope00@gmail.com">Dr. Allen Pope: NSIDC</a>
 				</p>
 			    </div>
 			    </div>
@@ -166,8 +192,9 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
 					</div>
 					<div class="box">
 						<h2>Contributors</h2>
-						<a href="http://www.jpl.nasa.gov/" target="_blank"><img src="static/img/JPL.png" alt="JPL" style="width: 200%; padding-top: 50px;"></a>
-						<a href="http://www.nasa.gov/" target="_blank"><img src="static/img/nasa.png" alt="nasa" style="padding-top: 20px;"></a>
+						<a href="http://www.jpl.nasa.gov/" target="_blank"><img src="static/img/JPL.png" alt="JPL" style="width: 200%; padding-top: 30px;"></a>
+						<a href="http://www.nasa.gov/" target="_blank"><img src="static/img/nasa.png" alt="nasa" style="padding-top: 10px;"></a>
+						<a href="http://www.esipfed.org/" target="_blank"><img src="static/img/esip.jpg" alt="esip" style="padding-top: 10px;"></a>
 					</div>
 				</div>
 
@@ -175,7 +202,6 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
 		</section>
 		
 	</div>
-	
 	<script type="text/javascript" src="static/js/jquery.js"></script>
 	<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
 	<script type="text/javascript" src="static/js/jquery.main.eng.min.js"></script>
@@ -183,6 +209,7 @@ The organizing committee is composed by both cyberinfrastructure and polar exper
 	<script src="static/js/leaflet.js"></script>
 	<script src="static/js/map.js"></script>
 	<script src="static/js/side_menu.js"></script>
+	<script src="static/js/bootstrap.js"></script>
 
 <script type="text/javascript"> 
     jQuery(document).ready(function(){
