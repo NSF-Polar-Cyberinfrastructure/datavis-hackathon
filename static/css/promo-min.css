@@ -18,4 +18,4 @@
 .committee-section{background: #b7ac35; padding: 0 0 0 0; margin: 0 0 0 0;opacity: .97;}.committee-section h1{color: #fff; padding:0 0 73px;margin:0;font:300 50px alsschlangesans,Arial,Helvetica,sans-serif;position:relative;text-align:center;letter-spacing:-2px}.committee-section h1:after{position:absolute;content:'';top:100%;width:122px;left:50%;height:3px;background:#ee5020;border-radius:2px;margin:-38px 0 0 -61px}.committee-section h2{text-align: center; margin-bottom: 0px;}.committee-section p{text-align: left; margin-bottom: 0px; line-height: 20px;}
 .agenda-section table {background-color:white; cellpadding: 2px;};
 .agenda-section div h3 {background-color:#BBB1A5; color:white; padding:3px 8px; text-transform:uppercase; width:500px;};
-.participant-section{background: #4zac35; padding: 0 0 0 0; margin: 0 0 0 0;opacity: .97;}
+.participants-section{background: #4zac35; padding: 0 0 0 0; margin: 0 0 0 0;opacity: .97;}
