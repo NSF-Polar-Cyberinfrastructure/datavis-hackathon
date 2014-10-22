@@ -1,6 +1,6 @@
 function getSessions(){
         var sessionsHTML = "<ul class='issues-list'>";
-        $.get("https://api.github.com/repos/NSF-Polar-Cyberinfrastructure/datavis-hackathon/issues?", function(data){
+        $.get("https://api.github.com/repos/NSF-Polar-Cyberinfrastructure/datavis-hackathon/issues?labels=proposed%20session", function(data){
         
         var numSess = data.length,
                 session;
