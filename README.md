@@ -8,6 +8,8 @@ funded project [PLR-1348450](http://www.nsf.gov/awardsearch/showAward?AWD_ID=134
 The organization of this tree is as follows:
 
 * static - Static portions of the website (CSS, JS, resources)
+* code - Includes sub-folders of ALv2 licensed code produced by each session.
+* report - The report from the workshop.
 * index.html - The actual web site.
 
 Tweeting and Social Media
