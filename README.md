@@ -8,17 +8,16 @@ funded project [PLR-1348450](http://www.nsf.gov/awardsearch/showAward?AWD_ID=134
 The organization of this tree is as follows:
 
 * static - Static portions of the website (CSS, JS, resources)
-* index.html - The actual web site.
-* cfp - Call for Papers
-* logistics - logistical information about the venue, participatoin stats, etc.
-* site - A sub-module link to the website at http://nsf-polar-cyberinfrastructure.github.io/datavis-hackathon/
-* programcommittee - Info about the Program Committee for the Hackathon.
-* static - Static portions of the website (CSS, JS, resources)
+* code - Includes sub-folders of ALv2 licensed code produced by each session.
+* report - The report from the workshop.
 * index.html - The actual web site.
 
 Tweeting and Social Media
 ===
 If you are considering tweeting about the site, please use the hashtag [#nsfpolardatavis](https://twitter.com/search?f=realtime&q=%23nsfpolardatavis)
+
+If you use [Google Plus](http://plus.google.com), please consider leveraging our
+Google Group/Event Group [here](https://plus.google.com/events/ccvo3qic56jku72r40haqjnlf74).
 
 Website
 ===
