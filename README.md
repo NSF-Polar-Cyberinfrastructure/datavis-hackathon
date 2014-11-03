@@ -32,6 +32,7 @@ The machine can be accessed by using the ssh program as follows.
 ssh nsfpolardata.dyndns.org
 ```
 login: `<username>`
+
 password: NewPass4u
 
 We have a shared account on the machine which we encourage you to use. This can be accessed as follows.
