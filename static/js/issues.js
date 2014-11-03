@@ -7,7 +7,7 @@ function getSessions(){
 
         for(var i=0; i<numSess; i++){
                 session = data[i];
-                sessionsHTML += "<li><strong class='title'><a href='" + session.html_url + "'>" + session.title + "  ";
+                sessionsHTML += "<li><strong class='title'><a href='" + session.html_url + "'>#" + session.number + ' ' + session.title + "  ";
 
                 var labels = session.labels.length;
                 for(var x=0; x<labels; x++){
