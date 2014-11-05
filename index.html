@@ -10,6 +10,7 @@
     <link media="all" rel="stylesheet" href="static/css/leaflet.css">
     <link media="all" rel="stylesheet" href="static/css/side_menu.css">
     <link media="all" rel="stylesheet" href="static/css/bootstrap.css">
+    <link media="all" rel="stylesheet" href="static/css/flexslider.css">
 </head>
 <body>
 
@@ -142,6 +143,8 @@
         <a title="nsfpolardatavis G+ Event" target="_blank" href="https://plus.google.com/events/ccvo3qic56jku72r40haqjnlf74">
             <img src="static/img/MetroUI-Google-plus-icon.png" alt="nsfpolardatavis G+ Event" height="100" width="100"/>
         </a>
+	
+	<div id="pictures"></div>
     </div>
 </div>
 </div>
@@ -326,14 +329,22 @@
 <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
 <script type="text/javascript" src="static/js/jquery.main.eng.min.js"></script>
 <script src="static/js/issues.js"></script>
+<script src="static/js/pictures.js"></script>
 <script src="static/js/leaflet.js"></script>
 <script src="static/js/map.js"></script>
 <script src="static/js/side_menu.js"></script>
 <script src="static/js/bootstrap.js"></script>
+<script src="static/js/jquery.flexslider.js"></script>
 
 <script type="text/javascript">
     jQuery(document).ready(function(){
         getSessions();
+	getPictures();
+    });
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+	    animation: "slide"
+            });
     });
 </script>
 
