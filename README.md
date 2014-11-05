@@ -8,6 +8,7 @@ funded project [PLR-1348450](http://www.nsf.gov/awardsearch/showAward?AWD_ID=134
 The organization of this tree is as follows:
 
 * static - Static portions of the website (CSS, JS, resources)
+* presentations - Presentations from the meeting (keynotes, etc.)
 * code - Includes sub-folders of ALv2 licensed code produced by each session.
 * report - The report from the workshop.
 * index.html - The actual web site.
@@ -33,7 +34,7 @@ ssh nsfpolardata.dyndns.org
 ```
 login: `<username>`
 
-password: NewPass4u
+password: `<provided>`
 
 We have a shared account on the machine which we encourage you to use. This can be accessed as follows.
 ```
@@ -66,8 +67,4 @@ s3cmd put
 ...
 s3cmd get
 ```
-
-
 etc.
-```
-
