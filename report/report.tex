@@ -55,12 +55,19 @@ The unconference began with a `lightning talk' phase in which each session propo
 \end{figure*}
 
 \section{Outcomes}
-Some notable outcomes of the sessions included: (1) a data converting script and web service to covert Antarctic Meteorology Research Center (AMRC) Automatic Weather Station (AWS) data from simple text data to JSON data and then to load that data into Apache Solr to create an AWS Polar data search (see more outcomes described in \url{https://github.com/NSF-Polar-Cyberinfrastructure/datavis-hackathon/issues/3}); (2) 3-d printing code for Arctic bathymetry and sea ice brine channels (read more about this session and its outcomes in \url{https://github.com/NSF-Polar-Cyberinfrastructure/datavis-hackathon/issues/50}); and (3) a visualization wire-frame for a high school oriented tool to allow comparison of sea live rise using two glaciers as an example (see \url{https://github.com/NSF-Polar-Cyberinfrastructure/datavis-hackathon/issues/82} for more information). 
+Some notable outcomes of the sessions included: (1) a data converting script and web service to covert Antarctic Meteorology Research Center (AMRC) Automatic Weather Station (AWS) data from simple text data to JSON data and then to load that data into Apache Solr to create an AWS Polar data search (see more outcomes described in \url{https://github.com/NSF-Polar-Cyberinfrastructure/datavis-hackathon/issues/3}); (2) 3-d printing code for Arctic bathymetry and sea ice brine channels (read more about this session and its outcomes in \url{https://github.com/NSF-Polar-Cyberinfrastructure/datavis-hackathon/issues/50}); (3) a visualization wire-frame for a high school oriented tool to allow comparison of sea live rise using two glaciers as an example (see \url{https://github.com/NSF-Polar-Cyberinfrastructure/datavis-hackathon/issues/82} for more information); and (4) a prototype of a Tangelo web application.  The application combines imagery and dynamically-queried point information in an interactive web map.  Screenshots from the prototype are provided below in Figure 5.  The map in the browser displays the University of Wisconsin Automatic Weather Station (AWS) locations and NASA MODIS imagery. Imagery was added by querying NASA's WMS (Web Map Service) layer.  Dr. Curtis Lisle developed the Tangelo server architecture for AWS data and modified a sample OpenLayers application.  Mr. Justin Paul-Peters contributed the MODIS imagery datalayer.  Ms. Carol Costanza contributed by providing station source data and reference locations for debugging. Source code for the prototype is included in the hackathon repository, and described in  \url{https://github.com/NSF-Polar-Cyberinfrastructure/datavis-hackathon/issues/42}); 
 
 \begin{figure*}[htp]
     \centering
     \includegraphics[width=5in]{figs/fig4.png}
     \caption{Wireframe of a glacier comparison tool showing the results of sea-level rise in the Arctic.}
+    \label{fig:website}
+\end{figure*}
+
+\begin{figure*}[htp]
+    \centering
+    \includegraphics[width=5in]{figs/fig5.png}
+    \caption{Screenshots from a Tangelo web map prototype that combines NASA polar imagery with dynamic AWS station layer (blue stars) and static reference points of interest (tan circles)}
     \label{fig:website}
 \end{figure*}
 
