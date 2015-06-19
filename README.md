@@ -24,6 +24,24 @@ Website
 ===
 [http://nsf-polar-cyberinfrastructure.github.io/datavis-hackathon/](http://nsf-polar-cyberinfrastructure.github.io/datavis-hackathon/)
 
+Submitting a Pull Request to the Website
+========================================
+```
+0. Download and install hub.github.com
+1. File JIRA issue for your update at https://github.com/NSF-Polar-Cyberinfrastructure/datavis-hackathon/issues
+- you will get issue id e.g., #X where X is the issue ID, e.g., if X is 101, then #101
+2. git clone https://github.com/NSF-Polar-Cyberinfrastructure/datavis-hackathon.git
+3. cd datavis-hackathon
+4. git checkout -b PR-X
+5. edit files
+6. git status (make sure it shows what files you expected to edit)
+7. git add <files>
+8. git commit -m “fix for #X contributed by <your username>”
+9. git fork
+10. git push -u <your git username> PR-X
+11. git pull-request
+```
+
 Amazon Instance and Data Buckets
 ===
 We have an Amazon Virtual Machine setup for the Hackathon attendees to access and use for storing and processing data. You should contact @MBoustani, @chrismattmann, @lewismc or @darth-pr for a username and login credentials for the machine if you wish to use it. Once you have feedback, progress with the following instructions:
